@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+   font-family: "Hiragino Kaku Gothic ProN"; 
+}
+
+header {
+    background-color: rgba(34, 49, 52, 0.9);
+    height: 65px; 
+    width: 100%;
+    position: fixed;
+    top:0;
+    z-index: 10;
+}
+
+.logo img{
+    float: left;
+    padding: 20px 30px;
+    width: 124px;
+}
+
+.login {
+ float: right;
+ color: #fff;
+ display: block;
+ background-color:rgba(255, 255, 255, 0.3);
+ padding: 20px 50px;
+ margin-right: 30px;
+ transition: all 0.4s;
+}
+
+.login:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.login-text {
+    color: white;
+}
+
+.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    padding: 180px 0 100px 0;
+    color: white;
+    text-align:center;
+}
+.top-wrapper h1 {
+   opacity: 0.7;
+   letter-spacing: 5px;
+   font-size: 45px;
+}
+.top-wrapper p {
+   opacity: 0.7;
+
+}
+.btn-wrapper {
+    margin: 20px 0;
+    color: white;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    
+    padding: 10px 30px;
+    border-radius: 4px;
+}
+.signup {
+    background-color: #239b76;
+}
+.facebook {
+    background-color:  #3b5998;;
+    margin-right: 10px
+}
+.twitter {
+    background-color: #55acee;
+}
+a {
+    text-decoration: none;
+}
+.lesson-wrapper {
+    height: 500px;
+    margin-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    
+    color: #5f5d60;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+.heading h2 {
+ font-weight: normal;
+}
+.lesson {
+    float: left;
+    width: 25%;
+}
+.lesson-icon {
+    position: relative;
+}
+.lesson-icon p {
+    color: white;
+    position: absolute;
+    top: 90px;
+    left: 140px;
+}
+.text-contents{
+    width: 80%;
+    display: inline-block;
+    font-size: 12px;
+    color: #b3aeb5;
+}
+.last-wrapper h2,h3 {
+    font-weight: normal;
+    
+}
+.last-wrapper {
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+
+}
+.develop {
+    color: white;
+    display: inline-block;
+    background-color: #5dca88;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow:0 7px #1a7940;
+    cursor: pointer;
+    margin-top: 40px;
+}
+
+.develop:active {
+    box-shadow: none;
+    position: relative;
+    top:7px;
+}
+
+.container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.container img{
+    width: 125px;
+    margin-left:40px;
+}
+.container p {
+    color:  #b3aeb5;
+    font-size: 11px;
+    margin-left:40px;
+}
